@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.post {
+    background-color: white;
+    width: 720px;
+    margin: 0 auto;
+}
+
+.post-header {
+    display: flex;
+    padding: 10px;
+}
+
+.post-header-icon {
+    flex: 1;
+    font-size: 45px;
+}
+.post-header-text {
+    flex: 12;
+}
+.post-header-icon-r {
+    flex: 1;
+    text-align: right;
+    font-size: 40px;
+    padding-right: 15px;
+}
+.post-header-text p {
+    margin: 0;
+    padding: 0;
+}
+
+.post-img {
+    height: 540px;
+    overflow: hidden;
+}
+.post-footer {
+    padding: 10px;
+}
+
+.post-icons-row {
+    display: flex;
+    font-size: 50px;
+}
+.post-icons-row1 {
+    flex: 12;
+
+}
+.post-icons-row2 {
+    flex: 1;
+
+}
